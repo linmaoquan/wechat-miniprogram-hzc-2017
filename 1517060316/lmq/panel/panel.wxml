@@ -1,0 +1,93 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">幸福之家</view>
+        <view class="page__desc">和谐未来 要有健康的身体</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">健康之路</view>
+            <view class="weui-panel__bd">
+                <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="{{icon60}}" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">健康万里行</view>
+                        <view class="weui-media-box__desc">大型系列节目《24节气养生》是双方在2013年的第一个合作项目，目的在于为老百姓提供指导性强、实用性强、操作性强的节气养生信息和方法，以达到传播中医文化，普及中医养生保健知识，服务大众健康生活的目的。</view>
+                    </view>
+                </navigator>
+                <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="{{icon60}}" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">专家谈养生</view>
+                        <view class="weui-media-box__desc">为了保证节目的权威性、科学性，中国中医科学院提供强大的专家团队支持，并最终遴选出五位中医养生领域的权威专家参与节目录制。其中张晋教授主讲春季系列，罗增刚教授主讲夏季系列，罗卫芳教授主讲秋季系列，张雪亮教授主讲冬季系列，代金刚博士主讲24节气养生操。</view>
+                    </view>
+                </navigator>
+            </view>
+            <view class="weui-panel__ft">
+                <view class="weui-cell weui-cell_access weui-cell_link">
+                    <view class="weui-cell__bd">查看更多</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </view>
+            </view>
+        </view>
+        <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">抛弃7个错误生活习惯</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">只吃低脂食物</view>
+                    <view class="weui-media-box__desc">虽然它们比一般食品热量稍低，但会让你很快感到饥饿，吃进更多。如果想保持正常代谢，日常食物中要保持一定量的脂肪，可多吃些坚果、鱼和牛油果等。</view>
+                </view>
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">爱喝鲜榨果蔬汁</view>
+                    <view class="weui-media-box__desc">果蔬汁在压榨过程中，会损害能产生饱腹感的纤维素，而糖却被全部保留了。经常喝果蔬汁容易能量不足、情绪波动大，还可能导致肌肉群因缺乏蛋白质而发生萎缩。</view>
+                </view>
+            </view>
+            <view class="weui-panel__ft">
+                <view class="weui-cell weui-cell_access weui-cell_link">
+                    <view class="weui-cell__bd">查看更多</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </view>
+            </view>
+        </view>
+        <view class="weui-panel">
+            <view class="weui-panel__hd">小图文组合列表</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_small-appmsg">
+                    <view class="weui-cells weui-cells_in-small-appmsg">
+                        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                            <view class="weui-cell__hd"><image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" /></view>
+                            <view class="weui-cell__bd weui-cell_primary">
+                                <view>文字标题</view>
+                            </view>
+                            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                        </navigator>
+                        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                            <view class="weui-cell__hd"><image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" /></view>
+                            <view class="weui-cell__bd weui-cell_primary">
+                                <view>文字标题</view>
+                            </view>
+                            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                        </navigator>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="weui-panel">
+            <view class="weui-panel__hd">文字列表附来源</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">标题一</view>
+                    <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+                    <view class="weui-media-box__info">
+                        <view class="weui-media-box__info__meta">文字来源</view>
+                        <view class="weui-media-box__info__meta">时间</view>
+                        <view class="weui-media-box__info__meta weui-media-box__info__meta_extra">其它信息</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
